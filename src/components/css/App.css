@@ -1,0 +1,55 @@
+.app{
+    clear: both;
+}
+    .navbarr ul {
+        text-decoration: none;
+        font-size:30px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-around; /* Distribute items evenly */
+        
+    }
+    .link{
+        text-decoration: none;
+        margin-top: 40px;
+        color:blue;
+    }
+    .nav{
+        padding-top: 25px;
+        height: 70px;
+        background-color:white;
+
+        display: block;
+    
+        
+    }
+.logo{
+    padding-top: 4px;
+    height: 70px;
+    border-radius: 40px;
+        animation: rotate 4s linear infinite; 
+}
+        @keyframes rotate {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(360deg);
+        }
+        
+}
+.logoo{
+    margin-left: 150px;
+    float: left;
+    display: flex;
+    background-color: blue;
+    height: 85px;
+    width: 200px;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 100px;
+    
+}

@@ -1,0 +1,141 @@
+.welcome{
+    height: 500px;
+    background-image: url("../assets/img/yy1.jpg");
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    
+}
+.welcome1{
+    
+    text-align: center;
+}
+h1 span span {
+    color:white;
+    position: relative;
+    animation: moveUPDown 0.75s forwards;
+    
+}
+@keyframes moveUPDown {
+    0%{bottom: -0.2em; opacity: 1;
+    }
+    50%{ bottom: 0.2em;
+   
+    }
+    100%{
+        bottom: 0; opacity: 1;
+    }
+ 
+
+}
+#pic1{
+    float: right;
+}
+#pic2{
+    float: left;
+}
+
+    
+
+.pic3{
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    z-index: 2;
+    animation: flyAcross 6s linear infinite;
+    transform: translate(-50%, -50%);
+
+}
+@keyframes flyAcross {
+    0% {
+    left: 80px; /* Start position off-screenon the left */
+    transform: translateY(-50%) rotate(-25deg); /* Start with a rotation */
+    }
+    100% {
+        left: calc( 80vw + 60px); /* End position off-screen on the right */
+        transform: translateY(-50%) rotate(10deg);
+    }
+
+}
+.pic1{
+    position: absolute;
+    right: 2px;
+    top: 300px;
+    height: 300px;
+    border-radius: 150px;
+    outline: none;
+    z-index: 1;
+}
+.pic2{
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    border-radius: 300px;
+    z-index: 3;
+}
+.pic4{
+    position: absolute;
+    top: 300px;
+    height: 300px;
+    border-radius: 100px;
+    left:550px ;
+    z-index: 2;
+}
+.box{
+  
+  background-color: black;
+  z-index: 3;
+  margin-top: 220px;
+  height: 300px;
+  opacity: 80%;
+
+}
+#flight{
+    height: 50px;
+    position: absolute;
+    top: 620px;
+    z-index: 5;
+    left: 190px;
+}
+#loge{
+    height: 50px;
+    position: absolute;
+    top: 620px;
+    z-index: 5;
+    left: 700px;
+}
+#tourist{
+    height: 50px;
+    position: absolute;
+    top: 620px;
+    z-index: 5;
+    right: 80px;
+}
+.button{
+    width: 200px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    border-color: blue;
+}
+.texts{
+    position: absolute;
+    top: 160px;
+    left: 500px;
+    z-index: 6;
+    background-color: black;
+    height: 130px;
+    opacity: 50%;
+    color: white;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.bounce{
+    height: 100px;
+    opacity: 100%;
+    border-radius: 50px;
+}

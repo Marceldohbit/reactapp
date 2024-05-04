@@ -1,0 +1,91 @@
+.img{
+    height: 100px;
+    margin-right: 60px;
+}
+
+.pic{
+    
+    display: flex;
+
+    align-items: center;
+}
+.blogs{
+ margin-left: 50px;
+ margin-right: 120px;
+ margin-bottom: 200px;
+ margin-top: 100px;
+ clear: both;
+ background-color: blanchedalmond;
+}
+.item{
+    background-color: inherit;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 130px;
+    height: 100px;
+
+}
+
+
+.word{
+    justify-content: center;
+    display: flex;
+}
+.home{
+    background-color: blueviolet;
+}
+.text{
+    background-color: white;
+}
+
+hr{
+    border-color: blue;
+    clear: both;
+    background-color: blanchedalmond;
+}
+.flightaff{
+    clear: both;
+    background-color: black;
+    opacity: 90%;
+    margin-bottom: 50px;
+    width: 500px;
+    position: absolute;
+    left: 70px;
+    padding-left: 150px;
+    top: 700px;
+   border-radius: 50px;
+   
+}
+.logeaff{
+    clear: both;
+    background-color: black;
+    opacity: 90%;
+    margin-bottom: 50px;
+    width: 500px;
+    position: absolute;
+    left: 300px;
+    padding-left: 150px;
+    top: 700px;
+   border-radius: 50px;
+
+}
+.touristaff{
+    clear: both;
+    background-color: black;
+    opacity: 90%;
+    margin-bottom: 50px;
+    width: 500px;
+    position: absolute;
+    right: 70px;
+    padding-left: 150px;
+    top: 700px;
+   border-radius: 50px;
+}
+.cross{
+   float: right;
+   
+}
+.a-text{
+    clear: both;
+}

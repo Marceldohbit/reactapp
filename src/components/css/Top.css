@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #060633; /* Background color for the navbar */
+  border-radius: 50px;
+  height: 70px;
+  border-style: none;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Distribute items evenly */
+}
+
+.navbar li {
+  width: 25%; /* Make each item occupy 25% of the navbar width */
+}
+
+.navbar li a {
+  display: flex;
+  color: white;
+  padding: 18px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.navbar li a:hover {
+  background-color: #221d1d; /* Darker background color when hovering */
+}
